@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Elite Store</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#cart">Cart</a></li>
+                <li><a href="#checkout">Checkout</a></li>
+            </ul>
+            <div class="cart-icon">
+                <a href="#cart"><img src="data:image/jpeg;base64,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" alt="Cart"></a>
+                <span id="cart-count">0</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Find Your Style</h1>
+            <p>Shop the latest trends and enjoy exclusive deals.</p>
+            <a href="#products" class="shop-now-btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Product Listings -->
+    <section id="products" class="products-section">
+        <div class="filter-bar">
+            <label for="category">Category:</label>
+            <select id="category" onchange="filterProducts()">
+                <option value="all">All</option>
+                <option value="clothing">Clothing</option>
+                <option value="accessories">Accessories</option>
+                <option value="electronics">Electronics</option>
+            </select>
+            <input type="text" id="search" placeholder="Search products..." oninput="filterProducts()">
+        </div>
+        <h2>Our Products</h2>
+        <div class="product-listing" id="product-listing">
+            <!-- Product cards will be dynamically inserted here -->
+        </div>
+    </section>
+
+    <!-- Shopping Cart -->
+    <section id="cart" class="cart-section">
+        <h2>Your Cart</h2>
+        <div id="cart-items">
+            <!-- Items added to the cart will appear here -->
+        </div>
+        <p class="total">Total: $<span id="total">0.00</span></p>
+        <button class="checkout-btn" onclick="checkout()">Checkout</button>
+    </section>
+
+    <!-- Checkout Page -->
+    <section id="checkout" class="checkout-section">
+        <h2>Checkout</h2>
+        <form id="checkout-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+            <label for="payment">Payment Method:</label>
+            <select id="payment" name="payment">
+                <option value="credit">Credit Card</option>
+                <option value="paypal">PayPal</option>
+            </select>
+            <button type="submit" class="place-order-btn">Place Order</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Elite Store. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
